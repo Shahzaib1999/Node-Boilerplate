@@ -1,0 +1,36 @@
+{
+  "name": "joy-of-learning",
+  "version": "0.1.0",
+  "description": "joy-of-learning backend",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "SET NODE_ENV=development && nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/digitaleap/joy-of-learning.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/digitaleap/joy-of-learning/issues"
+  },
+  "homepage": "https://github.com/digitaleap/joy-of-learning#readme",
+  "dependencies": {
+    "@babel/core": "^7.17.5",
+    "@babel/polyfill": "^7.12.1",
+    "@babel/preset-es2015": "^7.0.0-beta.53",
+    "@babel/preset-stage-0": "^7.8.3",
+    "@babel/register": "^7.17.0",
+    "body-parser": "^1.19.2",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "mongoose": "^6.2.3",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "@babel/node": "^7.16.8",
+    "@babel/preset-env": "^7.16.11"
+  }
+}
